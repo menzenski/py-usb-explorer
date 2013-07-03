@@ -48,6 +48,8 @@ def init_vid_pid():
 
 def init_usb_class():
 # Load a map with USB class usage and description
+# Should be completed if required
+
     ldev_class = {}
     ldev_class[0x00] = ('device', 'unspecified')
     ldev_class[0x02] = ('both', 'communications and CDC control')
